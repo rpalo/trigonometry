@@ -4,7 +4,7 @@ var e;
 var f;
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(1000, 600);
   e = new Emitter(width/4, height/4, 100, .01, createVector(1,0));
   f = new Emitter(width/4, height/4, 100, .01, createVector(0,1));
 }
